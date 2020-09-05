@@ -1,0 +1,43 @@
+{
+  "gitbook": "3.x.x",
+  "root": "./docs",
+  "plugins": [
+    "yahei",
+    "autotheme",
+    "-lunr",
+    "-search",
+    "search-plus",
+    "prism",
+    "-highlight",
+    "splitter",
+    "-sharing",
+    "sharing-plus",
+    "tbfed-pagefooter",
+    "expandable-chapters-small",
+    "book-summary-scroll-position-saver",
+    "anchors",
+    "anchor-navigation-ex",
+    "copy-code-button"
+  ],
+  "pluginsConfig": {
+    "theme-default": {
+      "showLevel": false
+    },
+    "fontSettings": {
+      "family": "serif",
+      "size": 2
+    },
+    "autotheme": {
+      "white": [9, 10, 11, 12, 13, 14, 15, 16, 17],
+      "sepia": [6, 7, 8, 18, 19],
+      "night": [20, 21, 22, 23, 0, 1, 2, 3, 4, 5]
+    },
+    "prism": {
+      "css": ["prismjs/themes/prism-tomorrow.css"]
+    }
+  },
+  "title": "学习笔记",
+  "description": "前端学习笔记",
+  "author": "lucas",
+  "language": "zh-hans"
+}
