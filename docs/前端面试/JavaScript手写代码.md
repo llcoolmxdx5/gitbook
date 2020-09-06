@@ -275,7 +275,7 @@ var child = new Child('son', 'father');
 
 **函数柯里化的主要作用和特点就是参数复用、提前返回和延迟执行。**
 
-## 7.1  通用版
+## 通用版
 
 ```js
 function curry(fn, args) {
@@ -303,7 +303,7 @@ multi(2)(3,4);
 multi(2,3)(4);
 ```
 
-## 7.2 `ES6`骚写法
+## `ES6`骚写法
 
 ```js
 const curry = (fn, arr = []) => (...args) => (
@@ -334,7 +334,7 @@ curryTest(1,2)(3,4) //返回10
 promise1=promise.then(onFulfilled, onRejected);
 ```
 
-## 8.1 `Promise`的流程图分析
+## `Promise`的流程图分析
 
 ![alt](https://user-gold-cdn.xitu.io/2019/3/28/169c500344dfe50a?w=716&h=736&f=png&s=51772)
 来回顾下`Promise`用法：
@@ -354,7 +354,7 @@ promise.then(function (value) {
 })
 ```
 
-## 8.2 面试够用版
+## 面试够用版
 
 > 来源：[实现一个完美符合Promise/A+规范的Promise](https://github.com/forthealllight/blog/issues/4)
 
@@ -412,7 +412,7 @@ p.then(function(x){console.log(x)})
 //输出1
 ```
 
-## 8.3 大厂专供版
+## 大厂专供版
 
 直接贴出来吧，这个版本还算好理解
 
@@ -626,13 +626,13 @@ const throttle = function(fn, delay, isDebounce) {
 
 ![alt](https://user-gold-cdn.xitu.io/2019/3/29/169c51230cefc5ba?w=2888&h=904&f=png&s=809028)
 
-## 10.1 乞丐版
+## 乞丐版
 
 ```js
  var newObj = JSON.parse( JSON.stringify( someObj ) );
 ```
 
-## 10.2 面试够用版
+## 面试够用版
 
 ```js
 function deepCopy(obj){
