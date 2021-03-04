@@ -3,7 +3,6 @@
   "root": "./docs",
   "plugins": [
     "yahei",
-    "autotheme",
     "-lunr",
     "-search",
     "search-plus",
@@ -24,13 +23,7 @@
       "showLevel": false
     },
     "fontSettings": {
-      "family": "serif",
-      "size": 2
-    },
-    "autotheme": {
-      "white": [9, 10, 11, 12, 13, 14, 15, 16, 17],
-      "sepia": [6, 7, 8, 18, 19],
-      "night": [20, 21, 22, 23, 0, 1, 2, 3, 4, 5]
+      "size": 3
     },
     "prism": {
       "css": ["prismjs/themes/prism-tomorrow.css"]
